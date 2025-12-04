@@ -3,6 +3,8 @@ import java.util.Queue;
 
 public class QueueExample {
     public static void main (String [] args) {
+        // LinkedLists actually allow all the items of a list to be linked together.
+        // Each item is known via their position behind or before an item
         // Create a queue using LinkedList implementation
         Queue <String> queue = new LinkedList<>();
 
@@ -58,9 +60,6 @@ public class QueueExample {
         queue.clear();
         System.out.println("Queue after clear: " + queue);
         System.out.println("Is queue empty? " + queue.isEmpty());
-
-
-
     }
 
 }
